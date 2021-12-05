@@ -1,6 +1,7 @@
 import cv2 as cv, PySimpleGUI as sg , sys , datetime
 
 height = 720
+loadablefiletype = [("PNG画像", "*.png"), ("JPEG画像", "*.jpg")]
 imgname = "./resource/waiting.png"
 console_text = "画像を選択してください"
 detectiontext = "YKK-San"
@@ -31,12 +32,12 @@ def YKKDetector():
 
 def InfoGUI():
     layout = [
-       [sg.Text("ファイル"), sg.InputText(console_text,key="-filename-"), sg.FileBrowse(button_text = "開く",key="-file-", target="-filename-")],
+       [sg.Text("ファイル"), sg.InputText(console_text,key="-filename-"), sg.FileBrowse(button_text = "開く",file_types = loadablefiletype,key="-file-", target="-filename-")],
        [sg.Button(button_text = "実行", key="-run-")],
        [(sg.Radio("ModelS",group_id="Model",key="-ModelS-",default = True)),(sg.Radio("ModelP",group_id="Model",key="-ModelP-"))],
-       [sg.Image(filename=imgname,size=(16,9),key="-Image-")]
+       [sg.Image(filename=imgname,size=(1280,720),key="-Image-")]
     ]
-    window = sg.Window("YKKDetector Ver1.0.0", layout)
+    window = sg.Window("YKKDetector Ver0.9.1", layout)
     def InfoGUIUpdate():
         global console_text, imgname, Model
         while True:

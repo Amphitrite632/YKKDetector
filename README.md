@@ -1,7 +1,7 @@
 # YKKDetector
 OpenCVを利用した機械学習データをもとに、VRChatのスクリーンショットなどからＹＫＫさん（もとい「幽狐族のお姉様」）を検出できるソフトウェアです。
 ## マニュアル
-- Pythonのインストールから解説する詳細なマニュアルを現在準備中です
+- [こちら](https://drive.google.com/file/d/13d59IjVWJq89E9kYQcl0mfLjAVKpvRNB/view?usp=sharing)から実行環境のセットアップから解説する詳細なマニュアルをご覧いただけます。
 ## ライセンス
 - 本ソフトウェアは[MIT LICENSE](https://github.com/vrm-c/UniVRM/blob/master/LICENSE.txt)のもとに提供されています。
 - ご利用の際はあわせて[「幽狐族のお姉様」のライセンス](https://armadillon.booth.pm/items/1484117)もご確認ください。
