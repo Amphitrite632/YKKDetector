@@ -3,7 +3,7 @@ OpenCVを利用した機械学習データをもとに、VRChatのスクリー�
 ## マニュアル
 - [こちら](https://drive.google.com/file/d/13d59IjVWJq89E9kYQcl0mfLjAVKpvRNB/view?usp=sharing)から実行環境のセットアップから解説する詳細なマニュアルをご覧いただけます。
 ## ライセンス
-- 本ソフトウェアは[MIT LICENSE](https://github.com/vrm-c/UniVRM/blob/master/LICENSE.txt)のもとに提供されています。
+- 本ソフトウェアは[MIT LICENSE](https://opensource.org/licenses/mit-license.php)のもとに提供されています。
 - ご利用の際はあわせて[「幽狐族のお姉様」のライセンス](https://armadillon.booth.pm/items/1484117)もご確認ください。
 ## Pythonバージョンについて
 Python 3.8未満のバージョンは(2.xとかでない限りおそらく動くと思いますが)サポートしておりません。
